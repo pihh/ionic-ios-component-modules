@@ -1,0 +1,20 @@
+<ion-card
+  [ngStyle]="{
+    background: '#fff url(' + src + ') no-repeat ',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  }"
+>
+  <ion-card-header>
+    <ion-card-subtitle role="heading" aria-level="3" class="ios hydrated">{{
+      subtitle
+    }}</ion-card-subtitle>
+    <ion-card-title role="heading" aria-level="2" class="{{ darkness }}">{{
+      title
+    }}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison
+    was named the capital of the Wisconsin Territory in 1836.
+  </ion-card-content>
+</ion-card>

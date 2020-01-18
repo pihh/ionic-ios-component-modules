@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "@ionic/angular": "^4.11.7",
+    "moment": "^2.24.0",
+    "ngx-moment": "^3.5.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

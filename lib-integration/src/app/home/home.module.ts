@@ -4,6 +4,7 @@ import { IonicModule } from "@ionic/angular";
 import { FormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
 import { PihhIonicComponentsModule } from "pihh-ionic-components";
+import { ComponentsModule } from "../components/components.module";
 
 import { HomePage } from "./home.page";
 
@@ -12,14 +13,18 @@ import { HomePage } from "./home.page";
     CommonModule,
     FormsModule,
     IonicModule,
+    PihhIonicComponentsModule,
+    ComponentsModule,
     RouterModule.forChild([
       {
         path: "",
         component: HomePage
       }
-    ]),
-    PihhIonicComponentsModule
+    ])
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule {
+  constructor() {}
+  ngAfterViewInit() {}
+}

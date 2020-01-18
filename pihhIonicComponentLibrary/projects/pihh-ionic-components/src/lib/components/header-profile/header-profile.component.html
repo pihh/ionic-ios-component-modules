@@ -1,0 +1,16 @@
+<ion-toolbar>
+  <ion-card-header>
+    <ion-title size="small" class="subtitle__slot-top" color="medium">
+      {{ _topSubtitle }}
+    </ion-title>
+    <ion-title size="large">{{ title }}</ion-title>
+  </ion-card-header>
+  <ion-buttons slot="end">
+    <ion-chip (click)="avatarClicked($event)">
+      <ion-avatar>
+        <img [src]="avatar" />
+      </ion-avatar>
+      <ion-label></ion-label>
+    </ion-chip>
+  </ion-buttons>
+</ion-toolbar>

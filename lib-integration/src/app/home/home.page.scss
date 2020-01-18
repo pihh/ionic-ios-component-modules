@@ -1,1 +1,8 @@
-
+ion-toolbar:last-child {
+  --border-width: 0 0 0px;
+}
+ion-toolbar:host {
+  .toolbar-container {
+    padding: 0 !important;
+  }
+}

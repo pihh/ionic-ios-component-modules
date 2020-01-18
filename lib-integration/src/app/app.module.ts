@@ -10,18 +10,21 @@ import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
 
 import { PihhIonicComponentsModule } from "pihh-ionic-components";
+import { ComponentsModule } from "./components/components.module";
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
+    PihhIonicComponentsModule,
+    ComponentsModule,
     IonicModule.forRoot({
       mode: "ios"
     }),
-    AppRoutingModule,
-    PihhIonicComponentsModule
+    AppRoutingModule
   ],
+  exports: [],
   providers: [
     StatusBar,
     SplashScreen,

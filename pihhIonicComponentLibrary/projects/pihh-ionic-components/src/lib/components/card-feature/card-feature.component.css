@@ -1,0 +1,27 @@
+.sc-ion-card-ios-h {
+  margin-left: unset;
+  margin-right: unset;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+}
+
+ion-card {
+  height: 50vh;
+  box-shadow: 0px 8px 16px #aaa;
+}
+
+ion-card-header {
+  position: absolute;
+  top: 0;
+}
+
+ion-card-content {
+  position: absolute;
+  bottom: 0;
+}
+
+ion-card .DARK {
+  color: #fff;
+}

@@ -1,3 +1,5 @@
+[app-display.png](https://postimg.cc/VrGx4j13)
+
 # PihhIonicComponentLibrary
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.

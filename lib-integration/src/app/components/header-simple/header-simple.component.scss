@@ -1,0 +1,24 @@
+ion-toolbar:last-child {
+  --border-width: 0 0 0;
+}
+
+ion-card-header {
+  margin: -4px;
+}
+
+.subtitle__slot-top {
+  padding-left: 0px;
+  padding-bottom: 32px;
+  text-align: left;
+
+  margin-left: -2px;
+  text-transform: uppercase;
+}
+
+ion-chip {
+  padding: 4px;
+  margin-top: 40px;
+}
+ion-avatar {
+  margin: 0;
+}

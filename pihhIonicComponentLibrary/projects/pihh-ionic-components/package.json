@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+    "@angular/core": "^8.2.14",
+    "moment": "^2.24.0",
+    "ngx-moment": "^3.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "ngx-moment": "^3.5.0"
   }
 }

@@ -3,5 +3,6 @@
   "dest": "../../dist/pihh-ionic-components",
   "lib": {
     "entryFile": "src/ngx-pic.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": ["moment"]
 }
