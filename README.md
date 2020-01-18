@@ -1,8 +1,6 @@
 # ionic-ios-component-modules
-Small modules of ios features found on many sketched
-
-
-[![app-display.png](https://i.postimg.cc/j2tRxX1d/app-display.png)](https://postimg.cc/VrGx4j13)
+Small modules of ios features found on many sketched  
+[![app-layout.png](https://i.postimg.cc/Pq1RKk6N/app-layout.png)](https://postimg.cc/kVXsXLPd)
 ```javascript 
 <ion-header>
   <pic-header-profile
