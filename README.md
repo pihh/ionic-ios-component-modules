@@ -2,13 +2,11 @@
 Small modules of ios features found on many sketched  
 [![app-layout.png](https://i.postimg.cc/Pq1RKk6N/app-layout.png)](https://postimg.cc/kVXsXLPd)
 ```javascript 
-<ion-header>
+<ion-content>
   <pic-header-profile
     [title]="'Home'"
     (onAvatarClicked)="onAvatarClicked($event)"
   ></pic-header-profile>
-</ion-header>
-<ion-content>
   <div class="ion-padding">
     <pic-card-feature
       [subtitle]="'Featured'"
