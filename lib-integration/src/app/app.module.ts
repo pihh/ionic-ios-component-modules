@@ -11,6 +11,7 @@ import { AppRoutingModule } from "./app-routing.module";
 
 import { PihhIonicComponentsModule } from "pihh-ionic-components";
 import { ComponentsModule } from "./components/components.module";
+import { NativePageTransitions } from "@ionic-native/native-page-transitions/ngx";
 
 @NgModule({
   declarations: [AppComponent],
@@ -28,6 +29,7 @@ import { ComponentsModule } from "./components/components.module";
   providers: [
     StatusBar,
     SplashScreen,
+    NativePageTransitions,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
