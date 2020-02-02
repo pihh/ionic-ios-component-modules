@@ -1,11 +1,10 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { IonicModule } from "@ionic/angular";
-import { HeaderSimpleComponent } from "./header-simple/header-simple.component";
 
 @NgModule({
-  declarations: [HeaderSimpleComponent],
+  declarations: [],
   imports: [CommonModule, IonicModule],
-  exports: [HeaderSimpleComponent]
+  exports: []
 })
 export class ComponentsModule {}

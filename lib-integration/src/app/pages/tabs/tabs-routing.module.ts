@@ -5,22 +5,22 @@ import { TabsPage } from "./tabs.page";
 
 const routes: Routes = [
   {
-    path: "tabs",
+    path: "home",
     component: TabsPage,
     children: [
-      { path: "tab1", loadChildren: "../home/home.module#HomePageModule" },
-      { path: "tab2", loadChildren: "../games/games.module#GamesPageModule" },
-      { path: "tab3", loadChildren: "../apps/apps.module#AppsPageModule" },
+      { path: "news", loadChildren: "../home/home.module#HomePageModule" },
+      { path: "games", loadChildren: "../games/games.module#GamesPageModule" },
+      { path: "apps", loadChildren: "../apps/apps.module#AppsPageModule" },
       {
-        path: "tab4",
+        path: "updates",
         loadChildren: "../updates/updates.module#UpdatesPageModule"
       },
-      { path: "tab5", loadChildren: "../search/search.module#SearchPageModule" }
+      { path: "search", loadChildren: "../search/search.module#SearchPageModule" }
     ]
   },
   {
     path: "",
-    redirectTo: "/tabs/tab1",
+    redirectTo: "/home/news",
     pathMatch: "full"
   }
 ];

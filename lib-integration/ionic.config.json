@@ -1,5 +1,7 @@
 {
   "name": "lib-integration",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -13,7 +13,7 @@ export class TabsPage implements OnInit {
   private currentIndex: number;
   private headerHeight: number;
   private loaded: boolean;
-  private tabs: string[] = ["tab1", "tab2"];
+  private tabs: string[] = ["news", "games", "apps", "updates", "search"];
   constructor(private nativePageTransitions: NativePageTransitions) {
     this.tabIndex = 0;
     this.currentIndex = 0;
